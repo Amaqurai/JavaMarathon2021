@@ -11,29 +11,29 @@ public class Task1 {
         System.out.println(newCar.getColor());
         System.out.println(newCar.getYear());
     }
+}
 
-    public static class Car {
-        private String model;
-        private String color;
-        private int year;
+class Car {
+    private String model;
+    private String color;
+    private int year;
 
-        public void setModel(String modelName) {
-            model = modelName;
-        }
-        public String getModel() {
-            return model;
-        }
-        public void setColor(String colorName) {
-            color = colorName;
-        }
-        public String getColor() {
-            return color;
-        }
-        public void setYear(int yearIssue) {
-            year = yearIssue;
-        }
-        public int getYear() {
-            return year;
-        }
+    public void setModel(String modelName) {
+        model = modelName;
+    }
+    public String getModel() {
+        return model;
+    }
+    public void setColor(String colorName) {
+        color = colorName;
+    }
+    public String getColor() {
+        return color;
+    }
+    public void setYear(int yearIssue) {
+        year = yearIssue;
+    }
+    public int getYear() {
+        return year;
     }
 }
